@@ -14,9 +14,9 @@ Creating a local domain name.
 
 Ubuntu uses this file to get IP mapping first, before it goes to look into an external network for any kind of matches.
 
-# default
+default
 127.0.0.1       localhost    
-# append this 
+append this 
 127.0.0.1       simplesite.local
 
 
