@@ -43,8 +43,6 @@ Test nginx server configuration before restarting the server.
 
 	sudo nginx -t
 
-nginx: configuration file /etc/nginx/nginx.conf test is successful
-
 Restart Server.
 
-sudo service nginx restart
+	sudo service nginx restart
