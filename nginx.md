@@ -46,3 +46,11 @@ Test nginx server configuration before restarting the server.
 Restart Server.
 
 	sudo service nginx restart
+
+Check state of port listening
+
+	ss -nltp
+
+Check iptable to figure out firewall ruls
+
+	sudo iptables -L -nv
